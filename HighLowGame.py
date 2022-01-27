@@ -1,6 +1,8 @@
 """
+
 Author: Brandon Luce, Megan Westover, Richard Asare, Camilo Camargo
 Title: Hi-Lo Game
+
 """
 
 import random
