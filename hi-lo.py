@@ -98,7 +98,7 @@ class Director:
         if guess.lower() == "h" and card2 < card1:
             print("Wrong!")
             self.points -= 75
-            print("Your score so far is", self.points)
+            print("Your score so far is:", self.points)
             print()
             if self.again() == "y":
                 pass
@@ -127,7 +127,7 @@ class Director:
 
         if self.points <= 0:
             print("Game Over!")
-            print()
+            print("Thank you for playing")
             quit()
 
 def main():
