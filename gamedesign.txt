@@ -1,0 +1,7 @@
+With the principles of abstraction, we designed the Hilo game. We grouped the codes into classes and methods. Inside the methods, we wrote functions to keep the game simple and to make them complete some specific tasks at a time. We planned the main function to call and use the start game method for the instance.  The director class has different methods in them. A function that will initialize the variables for the boolean state of the game. Other functions were written to perform some specific tasks in the game. 
+
+A card class that contains methods that will initialize a variable that will store random numbers. calculates the random number and returns in
+
+My team members are: 
+
+Brandon Luce(Teame leader), Megan Westover, Richard Asare, Camilo Camargo.
