@@ -81,7 +81,7 @@ class Director:
                 
     def do_updates(self):
         '''
-        Compares the cards and gives point compared to correct or incorrect answers.
+        Compares the cards and gives points compared to correct or incorrect answers.
         Relates the score and whether or not you are correct.
         Then it prints the total points. 
 
@@ -151,6 +151,7 @@ class Director:
         if self.points <= 0:
             print("Game Over!")
             print("Thank you for playing")
+            print()
             quit()
 
 
