@@ -151,6 +151,7 @@ class Director:
         if self.points <= 0:
             print("Game Over!")
             print("Thank you for playing")
+            print()
             quit()
 
 
