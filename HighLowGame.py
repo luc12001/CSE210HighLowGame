@@ -149,9 +149,8 @@ class Director:
                 quit()
 
         if self.points <= 0:
-            print("Game Over!")
+            print("You ran out of points! Game Over!")
             print("Thank you for playing")
-            print()
             quit()
 
 
