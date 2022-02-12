@@ -1,3 +1,5 @@
+import random
+
 class Card:
     """
     Class that initiates a card.
