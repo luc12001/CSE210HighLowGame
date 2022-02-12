@@ -1,6 +1,5 @@
 import random
 
-
 class Card:
     """Generates a random card number within 1 and 13.
 
