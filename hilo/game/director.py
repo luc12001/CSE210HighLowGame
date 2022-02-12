@@ -3,11 +3,31 @@ from game.card import Card
 import random
 
 
+    def again(self):
+            '''
+            Checks to see if user wants to play again.
+            '''
+            self.playAgain = input("Would you like to play again? [y/n] ")
+            while len(self.playAgain) > 0:
+                if self.playAgain.lower() in ["y","n"]:
+                    return self.playAgain
+                else:
+                    self.playAgain.lower() != ["y", "n"]
+                    print("Not a valid entry, try again")
+                    self.playAgain = input("Would you like to play again? [y/n] ")
+                    
+    def do_updates(self):
+        '''
+        Compares the cards and gives points compared to correct or incorrect answers.
+        Relates the score and whether or not you are correct.
+        Then it prints the total points. 
 
-
-
-
-
+        '''
+        self.card1.card = self.card2.card
+        card1 = self.card1.card
+        card2 = self.card2.draw()
+        guess = self.guess
+        print(f"The next card picked is {card2}")
 
         if guess.lower() == "h" and card2 > card1:
             print("Correct!, you won 100 more points.")
